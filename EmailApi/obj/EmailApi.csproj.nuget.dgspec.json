@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pavithras\\OneDrive - MOURI Tech\\CSHARP\\Email\\EmailApi\\EmailApi.csproj": {}
+    "D:\\Git Projects\\Emailauthentication\\EmailApi\\EmailApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pavithras\\OneDrive - MOURI Tech\\CSHARP\\Email\\EmailApi\\EmailApi.csproj": {
+    "D:\\Git Projects\\Emailauthentication\\EmailApi\\EmailApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pavithras\\OneDrive - MOURI Tech\\CSHARP\\Email\\EmailApi\\EmailApi.csproj",
+        "projectUniqueName": "D:\\Git Projects\\Emailauthentication\\EmailApi\\EmailApi.csproj",
         "projectName": "EmailApi",
-        "projectPath": "C:\\Users\\pavithras\\OneDrive - MOURI Tech\\CSHARP\\Email\\EmailApi\\EmailApi.csproj",
+        "projectPath": "D:\\Git Projects\\Emailauthentication\\EmailApi\\EmailApi.csproj",
         "packagesPath": "C:\\Users\\pavithras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pavithras\\OneDrive - MOURI Tech\\CSHARP\\Email\\EmailApi\\obj\\",
+        "outputPath": "D:\\Git Projects\\Emailauthentication\\EmailApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pavithras\\AppData\\Roaming\\NuGet\\NuGet.Config"
