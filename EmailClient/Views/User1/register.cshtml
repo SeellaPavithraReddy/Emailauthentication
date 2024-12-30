@@ -1,0 +1,49 @@
+@model EmailClient.Models.Entities.View_models
+<style>
+    .e {
+        color: red;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <div
+        style="display: flex; justify-content: center; align-items: center; height: 100vh; background-image: url('https://th.bing.com/th/id/OIP.mrj5awmvoiipokPPAfqT_AHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7'); background-size: cover; ">
+        <div style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+            <table style="margin: auto;">
+                <tr>
+                    <td style="background-color: white; padding: 10px;">Email</td>
+                    <td style="background-color: white; padding: 10px;">@Html.TextBoxFor(e => e.user1.Email, new
+                            {
+                                @class =
+                    "form-control",
+                                placeholder = "Email"
+                            })</td>
+                    <td> @Html.ValidationMessageFor(e => e.user1.Email, null, new { @class = "e" })</td>
+
+                </tr>
+                <tr>
+                    <td style="background-color: white; padding: 10px;">Password</td>
+                    <td style="background-color: white; padding: 10px;">@Html.TextBoxFor(e => e.user1.Password, new
+                            {
+                                @class
+                    = "form-control",
+                                placeholder = "Password"
+                            })</td>
+                    <td>@Html.ValidationMessageFor(e => e.user1.Password, null, new { @class = "e" })</td>
+
+                </tr>
+               
+                <tr>
+                    <td colspan="2" style="text-align: center; background-color: white; padding: 10px;">
+                        <button type="submit" class="btn btn-primary">Send OTP</button>
+                    </td>
+                </tr>
+            </table>
+            @if (ViewBag.msg != null)
+            {
+                <div style="text-align: center; margin-top: 10px; background-color: white; padding: 10px;">@ViewBag.msg</div>
+            }
+        </div>
+    </div>
+}
