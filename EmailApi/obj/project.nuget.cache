@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CbhK3+2hXP8=",
+  "dgSpecHash": "pCcXDwtJV0U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pavithras\\OneDrive - MOURI Tech\\CSHARP\\Email\\EmailApi\\EmailApi.csproj",
+  "projectFilePath": "D:\\Git Projects\\Emailauthentication\\EmailApi\\EmailApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavithras\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\pavithras\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
